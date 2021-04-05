@@ -1,0 +1,53 @@
+.zebra {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 50px;
+    font-family:  "Comic Sans MS" ,fantasy;
+    color: #333;
+}
+
+.zebra caption{
+    margin-bottom: -40px;
+    alignment: center;
+    font-size: 50px;
+    font-family:  "Comic Sans MS" ,fantasy;
+}
+.zebra td {
+
+    border: 1px solid #666;
+
+}
+
+.zebra tr:nth-child(odd) {
+
+    background: #C6F1EB;
+}
+
+body {
+    font-family:  "Comic Sans MS" ,fantasy;
+    background-image: url("background.jpg");
+    background-size: auto;
+}
+
+div{
+    font-family:  "Comic Sans MS" ,fantasy;
+    font-size: 40px;
+}
+form{
+    font-family:  "Comic Sans MS" ,fantasy;
+    font-size: 40px;
+}
+input{
+    font-family:  "Comic Sans MS" ,fantasy;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+}
+h1{
+    alignment: center;
+    font-family:  "Comic Sans MS" ,fantasy;
+    font-style: oblique;
+    font-size: 60px;
+}

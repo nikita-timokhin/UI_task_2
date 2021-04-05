@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="calculate.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body background="background.jpg">
+<h1 align="center">Quadratic equation</h1>
+<div align="center">
+    <b><u>Equation A&middot;x&sup2; + B&middot;x + C = 0.</u></b>
+    <br></br>
+    <form name="equation" action="javascript:calculate('Result')">
+        A = <input name="a" type="number" value="1" pattern="^[ 0-9]+$">
+        B = <input name="b" type="number" value="2" pattern="^[ 0-9]+$">
+        C = <input name="c" type="number" value="1" pattern="^[ 0-9]+$">
+        <input type="submit" value="submit">
+    </form>
+</div>
+
+<table class="zebra" id = "Result">
+    <caption><h3>Result</h3></caption>
+    <tr>
+        <td>X<sub>1</sub></td>
+        <td>X<sub>2</sub></td>
+    </tr>
+</table>
+</body>
+</html>
